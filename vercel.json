@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd book_store && npm install && npm run build",
+  "outputDirectory": "book_store/build",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
